@@ -1,4 +1,4 @@
-## Day 1: Setting Up VirtualBox and Windows Server.
+## Day 1: Setting Up VirtualBox and Windows Server
 
 Make sure to download VirtualBox and Windows Server ISO before reading!
 
