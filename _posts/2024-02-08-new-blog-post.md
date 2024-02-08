@@ -2,8 +2,6 @@
 
 This post is about giving a computer access to Windows Server, so IT Helpdesk staff can remotely manage Windows Server roles and features. At the end of this post, we will be able to use Active Directory features and tools in Windows 10 computer.
 
----
-
 ### Creating/Setting up Windows 10 VM in VirtualBox
 
 ---
