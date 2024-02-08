@@ -2,9 +2,9 @@
 
 This post is about giving a computer access to Windows Server, so IT Helpdesk staff can remotely manage Windows Server roles and features. At the end of this post, we will be able to use Active Directory features and tools in Windows 10 computer.
 
-### Creating/Setting up Windows 10 VM in VirtualBox
-
 ---
+
+### Creating/Setting up Windows 10 VM in VirtualBox
 
 We now want to create Windows 10 VM. Let's create a new VM in VirtualBox and install Windows 10 to it. 
 
@@ -17,8 +17,6 @@ After Windows 10 installation, I went to 'Local Users and Groups’ and under Us
 And I just deleted the account used to set up Windows 10.
 
 ### RSAT Tools and adding PC to domain
-
----
 
 To give our new computer access to Server Manager with limited access, we have to install RSAT tools. To add RSAT tools, let's go to Optional Features in System settings. Scroll down to RSAT Tools section and add any features you want the Helpdesk person to have. I chose these features:
 
