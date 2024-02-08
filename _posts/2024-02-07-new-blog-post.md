@@ -2,11 +2,9 @@
 
 This post is about installing Active Direcory step by step and how to create Active Directory account.
 
-
+---
 
 ### Downloading Active Directory and setting the server to domain controller
-
----
 
 To initiate the Active Directory installation process, I went to the 'Manage' tab within Server Manager (Server Manager should pop up by default when you login) and selected 'Add roles and features'.
 
@@ -30,8 +28,6 @@ Finally click on 'Install' and once the installation is complete, log in and nav
 Now we have our Active Directory and a domain controller!
 
 ### Helpdesk Account creation
-
----
 
 To create Helpdesk Account in Active Directory that has similar but limited permission to Admin account, I went to 'Users' folder and right clicked on Admin account to simply Copy Admin account. 
 
