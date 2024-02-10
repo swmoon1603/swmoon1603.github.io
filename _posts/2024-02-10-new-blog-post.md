@@ -27,9 +27,9 @@ With this option, we can set a temporary password here and let the users change 
 When a user's computer has trouble communicating with Domain controller, first we should try to ping DC and check IP/DNS settings. <br/>
 But let's say everything seems fine and there's DC communication issue or the computer has fallen off of the domain. 
 
-Let's first delete the computer from Active Directory Users and Computers by right clicking the computer and 'Delete'. <br/>
+Let's first remove the trace of the computer in Active Directory Users and Computers by right clicking the computer and 'Delete'. <br/>
 And I confirmed by logging into domain from the computer I deleted with helpdesk account, which gave me this error.
 
 To fix this, I'll try to regain domain access. Let's first login to user's desktop with local admin account. <br/>
 To add the desktop back into the domain, let's first change back to workgroup. <br/>
-After restarting computer, enter domain name to try to get back into the domain.
+After rebooting computer, enter domain name in Domain Change from System Properties to try to re-enroll into the domain.
