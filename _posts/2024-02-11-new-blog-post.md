@@ -55,7 +55,7 @@ For our Personal share folder, I'll include the helpdesk account and the Persona
 For our HR share folder, I'll include the helpdesk account and the HR group.
 Now only listed groups or accounts can have access to this share folder.
 
-### Mapping to a drive
+### Mapping a drive
 
 Now let’s go to Windows 10 VM and login with Sung account.
 
