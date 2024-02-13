@@ -42,3 +42,28 @@ And we can confirm the deployment in UserDesktop.
 
 ### Installing PDQ Inventory
 
+Let's utilize the VirtualBox Shared Folder once more to deploy the PDQ inventory app to the VM from our computer. <br/>
+Firstly, download PDQ inventory on the host computer. Then, place the PDQ Inventory Installer into the Shared Folder created on our computer, which synchronizes with the Z: drive in the server VM.
+
+Copy and paste the installer to the desktop of VM and install PDQ Inventory.
+
+Note: I had problem with PDQ Inventory. Even though my ‘UserDesktop’ VM was online, it wasn’t showing as online and I couldn’t connect to it. <br/>
+I found out that SMB protocol could be blocked at the computer or network level by a firewall. <br/>
+So I went to Firewall Advanced settings and enabled both ‘File and Printer Sharing (SMB-out)’ in Outbound rules and ‘File and Printer Sharing (SMB-in)’ in Inbound Rules for Domain connection.
+
+And after enabling SMB, User Desktop is listed on PDQ Inventory.
+
+#### PDQ Inventory
+
+With UserDesktop now listed and active on PDQ Inventory, we gain access to various desktop details. <br/>
+By double-clicking on UserDesktop from the list, we can view hardware specifications, installed applications, accessible Share Folders, Windows Features, and more.
+
+Also in Shares section, we can gain access to UserDesktop computer’s file system. 
+
+When we click the C: drive link, it takes us to UserDesktop’s C drive. 
+
+From the C drive, lets go to Desktop of this computer and create text file.
+
+And we can confirm text file is created in UserDesktop.
+
+From Tools, you also have a lot of control such as, running CMD, rebooting or shuting down the computer, view Event Viewer, manage the computer remotely with MMC, etc.
