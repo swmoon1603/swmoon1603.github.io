@@ -34,5 +34,5 @@ Note: While setting Static IP, failure to set the DNS IP will result in the inab
 And we should have access to domain server from Windows 10 computer. I can see that my computer is now listed on Active Directory Users and Computers under rootname.com. <br/>
 ![image3](https://github.com/swmoon1603/swmoon1603.github.io/assets/64879904/3675da2f-8dbf-434c-b2d9-5dd115f272fe) <br/>
 
-Let's verify the functionality of the RSAT tools. I accessed Administrative Tools from the Windows 10 VM and proceeded to select Active Directory Users and Computers. It's evident that we now have access to the same interface as seen on our domain server.
+Let's verify the functionality of the RSAT tools. I accessed Administrative Tools from the Windows 10 VM and proceeded to select Active Directory Users and Computers. We can see that we now have access to the same interface as seen on our domain server.
 ![image2](https://github.com/swmoon1603/swmoon1603.github.io/assets/64879904/7237ad32-c752-4b08-8c57-49c76131a099)
