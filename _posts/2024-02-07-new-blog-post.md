@@ -1,6 +1,6 @@
 ## Day 2: Installing Active Directory
 
-This post is about installing Active Direcory step by step and how to create Active Directory account.
+This post is about installing Active Directory step by step and how to create Active Directory account.
 
 ---
 
